@@ -1,0 +1,526 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.22f1 (b6c551784ba3) revision 11978065'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ko' Physical Memory: 32706 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/RPG
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+7741
+Successfully changed project path to: E:/RPG
+E:/RPG
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [73040] Host "[IP] 192.168.0.2 [Port] 0 [Flags] 2 [Guid] 3484950079 [EditorId] 3484950079 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-P4L4S61) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [73040] Host "[IP] 192.168.0.2 [Port] 0 [Flags] 2 [Guid] 3484950079 [EditorId] 3484950079 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-P4L4S61) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 177.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.22f1 (b6c551784ba3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/RPG/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 570 Series (ID=0x67df)
+    Vendor:   ATI
+    VRAM:     4074 MB
+    Driver:   31.0.14037.1007
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56036
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.025658 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 1052 ms
+Refreshing native plugins compatible for Editor in 124.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.763 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2764ms)
+		BeginReloadAssembly (296ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (2225ms)
+			LoadAssemblies (293ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (321ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (107ms)
+			SetupLoadedEditorAssemblies (1651ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (1267ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (125ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (158ms)
+				ProcessInitializeOnLoadMethodAttributes (98ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002227 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.795 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1796ms)
+		BeginReloadAssembly (215ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1353ms)
+			LoadAssemblies (143ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (421ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (620ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (57ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (400ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1593 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (483.3 KB). Loaded Objects now: 2082.
+Memory consumption went from 136.2 MB to 135.7 MB.
+Total: 4.174200 ms (FindLiveObjects: 0.251000 ms CreateObjectMapping: 0.169000 ms MarkObjects: 3.466000 ms  DeleteObjects: 0.286000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 94756.271239 seconds.
+  path: Assets/LowPoly_Magmadar/Animator/Animator.controller
+  artifactKey: Guid(d04bb757e076e634c8d22b47eaf32d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPoly_Magmadar/Animator/Animator.controller using Guid(d04bb757e076e634c8d22b47eaf32d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a59fb641c1757cbc1a7d354a39b2e5') in 0.305696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.518495 seconds.
+  path: Assets/Free medieval weapons/Textures/Arrows_Arrows_AlbedoTransparency.png
+  artifactKey: Guid(bbc0eeb85964fd3438a103ed240805a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free medieval weapons/Textures/Arrows_Arrows_AlbedoTransparency.png using Guid(bbc0eeb85964fd3438a103ed240805a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c839c76b2a550cd2cc94098adb29d33f') in 0.084207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Medieval Melee Weapon Pack/materials/Axes_OS_low_Axes_OS_AlbedoTransparency.mat
+  artifactKey: Guid(52e6de65807d38e43910a1e345d5a100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Melee Weapon Pack/materials/Axes_OS_low_Axes_OS_AlbedoTransparency.mat using Guid(52e6de65807d38e43910a1e345d5a100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '570cbd588249d82a685c35d81b7eb936') in 0.513476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GothicUI/Artworks/Compass/compass_PSD.psd
+  artifactKey: Guid(d39f4b1ca1c2cfb489760bf436efe45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/Compass/compass_PSD.psd using Guid(d39f4b1ca1c2cfb489760bf436efe45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f61ade7fa0594aa59eaa75cd726a5d') in 0.063934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/GothicUI/Artworks/Book_page.png
+  artifactKey: Guid(86687bb2a6c1d464ea249fd691100c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/Book_page.png using Guid(86687bb2a6c1d464ea249fd691100c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e409e629e9fcc1f9c23485698ea4259c') in 0.130205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/Furniture Parts 1 test.fbx
+  artifactKey: Guid(c2ada2fa108ecb244948c5b573bb2718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/Furniture Parts 1 test.fbx using Guid(c2ada2fa108ecb244948c5b573bb2718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4691c7dc1756bfbe1db944c03562f09c') in 0.609666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/JP Environmental Asset Pack/Prefabs/Grass Patch Small.prefab
+  artifactKey: Guid(975ca1de1ebfe964491f7f9df16a60be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JP Environmental Asset Pack/Prefabs/Grass Patch Small.prefab using Guid(975ca1de1ebfe964491f7f9df16a60be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6163dd8f9bbbe1470a4ad0037a85d857') in 0.397651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/InventoryMaster/Textures/Example Inventory/2/Hotbar_Panel.png
+  artifactKey: Guid(19c0ff1c29bdaf34b8e49d08a7b5058d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InventoryMaster/Textures/Example Inventory/2/Hotbar_Panel.png using Guid(19c0ff1c29bdaf34b8e49d08a7b5058d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5217fb2389563acc5112fea4a83ef4d') in 0.032720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/Textures/NEW CASTLES Plane 1_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(01982019cfca74c4f8d2df61e310ba1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/Textures/NEW CASTLES Plane 1_DefaultMaterial_AlbedoTransparency.png using Guid(01982019cfca74c4f8d2df61e310ba1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc7cdd079e75dfcb2833805552cf2b85') in 0.029966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Fallen Tree Barrier - FREE/Textures/CharacterScaleOnly_PropertyofUnity_NotPartofPack.tga
+  artifactKey: Guid(8c7fbc787a6766743b736b5569002cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fallen Tree Barrier - FREE/Textures/CharacterScaleOnly_PropertyofUnity_NotPartofPack.tga using Guid(8c7fbc787a6766743b736b5569002cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b79f007c4fcfe7d674b8bbea4b994616') in 0.030028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GothicUI/Artworks/Compass/colb_separator.png
+  artifactKey: Guid(3f99b5a67a6575c42a0e69f27e48811e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/Compass/colb_separator.png using Guid(3f99b5a67a6575c42a0e69f27e48811e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb1760aeaae5633067418f382ba98585') in 0.035708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/JP Environmental Asset Pack/Textures/Tree 4/Dead Tree 4 RFS_Tree 2 Mat_AlbedoTransparency.png
+  artifactKey: Guid(35d5cc473c6ed0746b69f87c369a5050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JP Environmental Asset Pack/Textures/Tree 4/Dead Tree 4 RFS_Tree 2 Mat_AlbedoTransparency.png using Guid(35d5cc473c6ed0746b69f87c369a5050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cee34fda97319d37e9c5dd622b61b407') in 0.030270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/Textures/Furniture Parts 1_Furniture 1_AlbedoTransparency.png
+  artifactKey: Guid(5ac0c6cefeee72343a9587bb681229cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/Textures/Furniture Parts 1_Furniture 1_AlbedoTransparency.png using Guid(5ac0c6cefeee72343a9587bb681229cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '082aff30488a5e4baa2b286861ea385a') in 0.025710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/Textures/NEW CASTLES Plane 1_NEW Window Arch_AlbedoTransparency 2.png
+  artifactKey: Guid(d5bd871733291264899c4f8f463ffa13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/Textures/NEW CASTLES Plane 1_NEW Window Arch_AlbedoTransparency 2.png using Guid(d5bd871733291264899c4f8f463ffa13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '800e608c60bfd257aaeae721ed6f852f') in 0.025946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/GothicUI/Artworks/Button_pause.png
+  artifactKey: Guid(adf8d9f8a1966984a9d37339eab10638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/Button_pause.png using Guid(adf8d9f8a1966984a9d37339eab10638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54ce133ad35e5b557fabbbdff86f00b1') in 0.034528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/JP Environmental Asset Pack/Textures/Tree 2/Dead Tree 2 RFS_Tree 1 Mat_AlbedoTransparency.png
+  artifactKey: Guid(f81fea05d72361d44bdaeba00dace253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JP Environmental Asset Pack/Textures/Tree 2/Dead Tree 2 RFS_Tree 1 Mat_AlbedoTransparency.png using Guid(f81fea05d72361d44bdaeba00dace253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd39b63a08870405ebc89dbefd3952711') in 0.030350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/Textures/NEW CASTLES Plane 1_NEW Castle 1A1_AlbedoTransparency.png
+  artifactKey: Guid(dd0869929486b154b92047f461be9c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/Textures/NEW CASTLES Plane 1_NEW Castle 1A1_AlbedoTransparency.png using Guid(dd0869929486b154b92047f461be9c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cce744004d61aec94f11803c8b5e5056') in 0.031699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/Textures/NEW CASTLES Plane 1_NEW Roof 1_AlbedoTransparency.png
+  artifactKey: Guid(5b931c19df2937049b62efe35af7d137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/Textures/NEW CASTLES Plane 1_NEW Roof 1_AlbedoTransparency.png using Guid(5b931c19df2937049b62efe35af7d137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67b1ddcb596082ca0122c84b05dcf794') in 0.024941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Medieval Mega Pack/MMP 1/FBX/Materials/Glass Transparent 1.mat
+  artifactKey: Guid(1c2bc6514fe79fc43b170df91664e65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 1/FBX/Materials/Glass Transparent 1.mat using Guid(1c2bc6514fe79fc43b170df91664e65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6c4f9c0b0ea51084295c3e081eb788') in 0.433509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Medieval Melee Weapon Pack/materials/DoubleSided_Axes_low_Axes_DS_AlbedoTransparency.mat
+  artifactKey: Guid(a7bbeb5c5e35a0246a697b8805c49c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Melee Weapon Pack/materials/DoubleSided_Axes_low_Axes_DS_AlbedoTransparency.mat using Guid(a7bbeb5c5e35a0246a697b8805c49c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e252770c3c9616c967069c90e5d1d5e5') in 0.033810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/GothicUI/Artworks/Inventory_icon_b_Pants.png
+  artifactKey: Guid(3224e16670140dc40a752bc8cb193ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/Inventory_icon_b_Pants.png using Guid(3224e16670140dc40a752bc8cb193ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6652ced17028a148284914986d385729') in 0.035803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/InventoryMaster/Textures/bck_transparent.png
+  artifactKey: Guid(4be4829451c3e5a44a594a19c3d430bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InventoryMaster/Textures/bck_transparent.png using Guid(4be4829451c3e5a44a594a19c3d430bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '728105a3fe1cfce5fa0dae451b5ba615') in 0.021570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/Textures/Furniture Parts 1_Furniture 1_MetallicSmoothness.png
+  artifactKey: Guid(fc3421f903ef6d44c833383ca2c28e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/Textures/Furniture Parts 1_Furniture 1_MetallicSmoothness.png using Guid(fc3421f903ef6d44c833383ca2c28e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ebbfbea0aeb9d0e0885a6b1b184f30b') in 0.023680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/GothicUI/Artworks/Book_page_big.png
+  artifactKey: Guid(9741b07ade49d8c41a7dc74328535538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/Book_page_big.png using Guid(9741b07ade49d8c41a7dc74328535538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bebacdf074fbc3b5275cd6eea3acd0e8') in 0.093250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/JP Environmental Asset Pack/Prefabs/Grass Patch Large.prefab
+  artifactKey: Guid(98a359d63c95b74479b90b53b0631766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JP Environmental Asset Pack/Prefabs/Grass Patch Large.prefab using Guid(98a359d63c95b74479b90b53b0631766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d7feb7b5a4652728727bddf7d0b895') in 0.031827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/Textures/NEW CASTLES Plane 1_Concrete Wall 1A1_AlbedoTransparency2.png
+  artifactKey: Guid(c788f1aa96dc1f1418833903753c72b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/Textures/NEW CASTLES Plane 1_Concrete Wall 1A1_AlbedoTransparency2.png using Guid(c788f1aa96dc1f1418833903753c72b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0bf218b102bc7ed451b6065d052fb04') in 0.020711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/JP Environmental Asset Pack/Textures/Large Rock 2/Large Rock 2 RFS_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(40f9da92ac1a5df419796b5e23494600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JP Environmental Asset Pack/Textures/Large Rock 2/Large Rock 2 RFS_DefaultMaterial_AlbedoTransparency.png using Guid(40f9da92ac1a5df419796b5e23494600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cce1d9597f04b03c9b0a6e59c1803651') in 0.024634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/Textures/Furniture 1_Furniture 1_AlbedoTransparency.png
+  artifactKey: Guid(ac838de65d30d6c43949ea02f0894730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/Textures/Furniture 1_Furniture 1_AlbedoTransparency.png using Guid(ac838de65d30d6c43949ea02f0894730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be3481f3c23c781e39a2aecde5a90e11') in 0.028960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Free medieval weapons/Materials/DoubleSided_Axes_low_Axes_DS_AlbedoTransparency.mat
+  artifactKey: Guid(fea5362e1b265c54b9073c4b17ff9dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free medieval weapons/Materials/DoubleSided_Axes_low_Axes_DS_AlbedoTransparency.mat using Guid(fea5362e1b265c54b9073c4b17ff9dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f75f47caa66c7375aeee7e4f13b086') in 0.033475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/Textures/NEW CASTLES Plane 1_NEW Window Arch_AlbedoTransparency.png
+  artifactKey: Guid(3f06c9894e393e441a1cf71d2f59ffdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Mega Pack/MMP 2 (NEWEST)/FBX/Textures/NEW CASTLES Plane 1_NEW Window Arch_AlbedoTransparency.png using Guid(3f06c9894e393e441a1cf71d2f59ffdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8725ca00365b76881c6dbde50b7aaaa1') in 0.029994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/JP Environmental Asset Pack/Models/Grass Patch Small.FBX
+  artifactKey: Guid(7fbab33f680881043bae557540efff3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JP Environmental Asset Pack/Models/Grass Patch Small.FBX using Guid(7fbab33f680881043bae557540efff3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99d0e4d6392cf757160209eccd28637f') in 0.380493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.784542 seconds.
+  path: Assets/Character/back.fbx
+  artifactKey: Guid(b6e170cd42612684d9b5066ed51ce19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/back.fbx using Guid(b6e170cd42612684d9b5066ed51ce19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9257f3861fcdc1bd533322f221b78c13') in 0.068096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Character/sword and shield jump.fbx
+  artifactKey: Guid(b0cc7a10219d4b842a1601447d5fd982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/sword and shield jump.fbx using Guid(b0cc7a10219d4b842a1601447d5fd982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f6d583413d92e12a7dd0837a8562337') in 0.030272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Character/sword and shield idle (3).fbx
+  artifactKey: Guid(b00758484cd9cd9459f245bcb0d24651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/sword and shield idle (3).fbx using Guid(b00758484cd9cd9459f245bcb0d24651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1130826fd0194825e0c60de68db59b5e') in 0.065976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Character/lattack.fbx
+  artifactKey: Guid(d49589363bccfb843bf7868e29bc96c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/lattack.fbx using Guid(d49589363bccfb843bf7868e29bc96c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8095ee568f78aec51f8b9f23d78df32') in 0.031788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Character/run.fbx
+  artifactKey: Guid(0222ffded7821fd4aaeb0e39e5b108c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/run.fbx using Guid(0222ffded7821fd4aaeb0e39e5b108c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e3a42eb35c6eda6d6da1d17df6cec71') in 0.034571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Character/sword and shield crouching.fbx
+  artifactKey: Guid(806ade15570317d46add5393dc584d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/sword and shield crouching.fbx using Guid(806ade15570317d46add5393dc584d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431704a2968619c7cd3607aa701d9b54') in 0.045998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000536 seconds.
+  path: Assets/Character/sword and shield turn.fbx
+  artifactKey: Guid(b02171bcd3dd1f64bb87c22ca2269432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/sword and shield turn.fbx using Guid(b02171bcd3dd1f64bb87c22ca2269432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '506509c1644aae087e8285819cbd734c') in 0.067918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Character/sword and shield slash (4).fbx
+  artifactKey: Guid(04de3a71908bd6247abe14dcef903408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/sword and shield slash (4).fbx using Guid(04de3a71908bd6247abe14dcef903408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab54da7aec8060aa4a9696fd5a890047') in 0.061268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Character/sword and shield casting.fbx
+  artifactKey: Guid(ab8c282283390634fa34f8c46bd1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/sword and shield casting.fbx using Guid(ab8c282283390634fa34f8c46bd1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f935e6e9f13cdae589428bdd2b2e082') in 0.051671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Character/sword and shield block idle.fbx
+  artifactKey: Guid(071c3875a5ed5cb4bb59d909cc419879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/sword and shield block idle.fbx using Guid(071c3875a5ed5cb4bb59d909cc419879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ebe776c3ee0043ade5dd6f5a7e6cc99') in 0.027714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Character/sword and shield attack (4).fbx
+  artifactKey: Guid(b0be54fa0fa0e8b4ba98ebb3533b6e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/sword and shield attack (4).fbx using Guid(b0be54fa0fa0e8b4ba98ebb3533b6e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03c4cc9a8c298441cf33195c2047067f') in 0.015337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Character/sword and shield crouch.fbx
+  artifactKey: Guid(1e18db6a094ad0d4a9a26d0a63fcb2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/sword and shield crouch.fbx using Guid(1e18db6a094ad0d4a9a26d0a63fcb2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bdcd905656e5b9788217ec17938dcfa') in 0.017220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Character/sword and shield impact.fbx
+  artifactKey: Guid(9eb39f5d785c25c46aced96dae4a4894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/sword and shield impact.fbx using Guid(9eb39f5d785c25c46aced96dae4a4894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efcf1cdf20c99d87ba9df9b44a79e0c2') in 0.029466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Character/bwolk.fbx
+  artifactKey: Guid(08e486724a3a7024d992ebd76453549f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/bwolk.fbx using Guid(08e486724a3a7024d992ebd76453549f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0309c5cca472ed22d196ac6748fdd0ed') in 0.076119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Character/die2.fbx
+  artifactKey: Guid(2de8e7e07d7849249a7009e62a6d0771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/die2.fbx using Guid(2de8e7e07d7849249a7009e62a6d0771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc296bb85e00eee8f0ceeeccb05be6ab') in 0.029403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Character/sword and shield casting (2).fbx
+  artifactKey: Guid(8e6ebdaed5b74e344aef1f4f9e514e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/sword and shield casting (2).fbx using Guid(8e6ebdaed5b74e344aef1f4f9e514e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9de8a67612032ea7d6a295179a1ee5c') in 0.026665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Character/sword and shield turn (2).fbx
+  artifactKey: Guid(e85df6388fb25a64c915bc3444388304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/sword and shield turn (2).fbx using Guid(e85df6388fb25a64c915bc3444388304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '627f0881995aaf500bb5c0bcce2c32bf') in 0.035535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Character/sword and shield kick.fbx
+  artifactKey: Guid(a2e6d7fde8eace24a9a5f11e423c4d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/sword and shield kick.fbx using Guid(a2e6d7fde8eace24a9a5f11e423c4d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4f11dcc3418b7e1b1641208a9cc99d6') in 0.046546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Character/sword and shield crouching (2).fbx
+  artifactKey: Guid(c9390da55500ec844ae9defb4b806ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/sword and shield crouching (2).fbx using Guid(c9390da55500ec844ae9defb4b806ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ef3eeecbc64c70846bb320c80fb099') in 0.047664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Character/sword and shield crouch block.fbx
+  artifactKey: Guid(f913e0fdebf837346ad02b596a8ac3ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/sword and shield crouch block.fbx using Guid(f913e0fdebf837346ad02b596a8ac3ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e737d831cc1f4905e3695d15def604f1') in 0.057579 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002324 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.362 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1362ms)
+		BeginReloadAssembly (253ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (935ms)
+			LoadAssemblies (165ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (280ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (425ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (283ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1564 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 12 unused Assets / (457.9 KB). Loaded Objects now: 2155.
+Memory consumption went from 138.1 MB to 137.7 MB.
+Total: 2.901700 ms (FindLiveObjects: 0.177400 ms CreateObjectMapping: 0.101600 ms MarkObjects: 2.397600 ms  DeleteObjects: 0.224300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
